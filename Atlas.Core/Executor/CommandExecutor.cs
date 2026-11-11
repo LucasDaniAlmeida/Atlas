@@ -1,6 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Atlas.Core.Commands.Interfaces;
 using Atlas.Core.Models;
 using Atlas.Core.Registry;
@@ -29,7 +26,7 @@ public class CommandExecutor : ICommandExecutor
             };
         }
 
-        if (!_registry.TryGet(request.commandName, out ICommand? command))
+        if (!_registry.TryGet(request.commandName, out ICommand? command) || command is null)
         {
             return new CommandResult
             {
