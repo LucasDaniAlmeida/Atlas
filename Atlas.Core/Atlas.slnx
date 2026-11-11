@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../Atlas.App/Atlas.App.csproj" Id="4fc05cab-36f1-4769-9739-7d083ee3fffc" />
+  <Project Path="../Atlas.IA/Atlas.IA.csproj" Id="3c298cc4-f8f4-4b9d-89df-7cd8395c49bb" />
+  <Project Path="../Atlas.Runtime/Atlas.Runtime.csproj" />
+  <Project Path="../Atlas.Testes/Atlas.Testes.csproj" Id="4c69f8f1-efc3-4750-bca3-b2ba134f606a" />
+  <Project Path="../Atlas.Voz/Atlas.Voz.csproj" Id="0b27b6b7-3349-482d-8d52-e9f210b0cd27" />
+  <Project Path="Atlas.Core.csproj" />
+</Solution>

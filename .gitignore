@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+.vs/
+TestResults/
+publish/
+artifacts/
+
+# Visual Studio
+*.user
+*.suo
+*.cache
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+secrets.json
+**/secrets.json
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Bancos de dados locais
+*.db
+*.sqlite
+*.sqlite3
